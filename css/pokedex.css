@@ -1,0 +1,106 @@
+.modal-body *{
+    font-family: 'Roboto';
+    color: #f0ffff;
+    -webkit-text-stroke:0;
+}
+.modal-body{
+    padding-top: 0%;
+}
+.modal-content{
+    background-color: #CE2211;
+}
+/*Pokedex*/
+#searcher form{
+    display: flex;
+    height:3rem;
+    padding: 0%;
+    border-radius:5rem;
+    margin-top: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+}
+#searcher input, #searcher button{
+    padding: 0%;
+    border:none;
+}
+#searcher input{
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    padding-left: 2rem;
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    -webkit-text-stroke:0;
+    color: #333333;
+    caret-color: #444444;
+}
+#searcher button{
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    background-color: #d9534f;
+    outline: none;
+}
+#searcher button span img{
+    width: 80%;
+    height: 70%;
+    color:blue;
+}
+#searcher button span{
+    padding-top: 2rem;
+}
+#searcher input:focus{
+    outline: none;
+}
+#pokedex #imagen img{
+    width: 100%;
+}
+#pokedex #imagen{
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+}
+#pokedex #marco{
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    background-color: silver;
+    padding: 1rem;
+}
+.modal-header{
+    height: 2rem;
+}
+.table-label{
+    text-align: right;
+    padding-right: 1rem;
+}
+.estadisticas th{
+    text-align: center;
+    font-size: 2rem;
+}
+/*Comment box*/
+h3{
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+}
+#comment,
+#comment-button{
+    border: none;
+    outline: none;
+}
+#comment{
+    caret-color: #444;
+    font-size: 1rem;
+    background-color: var(--bs-secondary);
+    width: 100%;
+    border-radius: 1rem;
+    padding: 0.5rem 0.5rem;
+    color: #444;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+}
+#comment-button{
+    border-radius: 1rem;
+    background-color: var(--bs-danger);
+    padding: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+}
+#comment-button:active{
+    background-color: var(--bs-yellow);
+}

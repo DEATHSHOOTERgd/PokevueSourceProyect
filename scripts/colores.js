@@ -1,0 +1,22 @@
+//Colección map con el color asignado para cada tipo de pokemon.
+var coloresDeTipo=new Map();
+coloresDeTipo.set("normal","#d9af71");
+coloresDeTipo.set("fighting","#732834");
+coloresDeTipo.set("flying","#1f85bf");
+coloresDeTipo.set("poison","#5b0e63");
+coloresDeTipo.set("ground","#703603");
+coloresDeTipo.set("rock","#6e6c6b");
+coloresDeTipo.set("bug","#8c9c3e");
+coloresDeTipo.set("ghost","#c997f0");
+coloresDeTipo.set("steel","#544e46");
+coloresDeTipo.set("fire","#ed480c");
+coloresDeTipo.set("water","#149fdb");
+coloresDeTipo.set("grass","#21b51f");
+coloresDeTipo.set("electric","#f0c802");
+coloresDeTipo.set("psychic","#8c7320");
+coloresDeTipo.set("ice","#07faee");
+coloresDeTipo.set("dragon","#d91cc6");
+coloresDeTipo.set("dark","#1e1d26");
+coloresDeTipo.set("fairy","#88f7ec");
+coloresDeTipo.set("unknown","#f5f4f2");
+coloresDeTipo.set("shadow","#3b1752");
